@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "60c120d6c923e888",
+    "id": "0d9b5c3b2e914a9b",
     "type": "split",
     "children": [
       {
-        "id": "13b8174aefd502b4",
+        "id": "b5e4a5d3a60f08c4",
         "type": "tabs",
         "children": [
           {
-            "id": "669adc85fb1eb84c",
+            "id": "4b1387526a402ce3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "App2/Note pour l'app 5 procédural 1.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "85f3805708bceeca",
+    "id": "9a19d9bb9a486447",
     "type": "split",
     "children": [
       {
-        "id": "fbbb8c69c78138c1",
+        "id": "b3c4db3292bd7830",
         "type": "tabs",
         "children": [
           {
-            "id": "1462535aa5a67f95",
+            "id": "f4465f9807fd1bf9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "0129ba5320303173",
+            "id": "6b206e9116c565af",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "642ded646730727a",
+            "id": "8854c5717af3f0b4",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -65,22 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "a28334e812851508",
+    "id": "0527d2bcb4d9e955",
     "type": "split",
     "children": [
       {
-        "id": "0d34e9135956b842",
+        "id": "5182205341f48ae2",
         "type": "tabs",
         "children": [
           {
-            "id": "ad3c1204d946de51",
+            "id": "ca6b76374d017087",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "App2/Note pour l'app 5 procédural 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "53a5cbe43ec19b72",
+            "id": "18dac6e8fd788215",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "App2/Note pour l'app 5 procédural 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "20ef1769a71217f9",
+            "id": "3e9e3420bdbd7ab0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "37406b6e186f0fe3",
+            "id": "c28840a77a3aa9db",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "App2/Note pour l'app 5 procédural 1.md"
+              }
             }
           }
         ]
@@ -138,9 +146,76 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1462535aa5a67f95",
+  "floating": {
+    "id": "f4beb602ef8e2d04",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c553ec7ee7284810",
+        "type": "window",
+        "children": [
+          {
+            "id": "f7bd82bc0ab5d7ae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d85d3fd5a0fd4119",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ecss/ExamenECSSV1Adri.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1992,
+        "y": 513,
+        "width": 1851,
+        "height": 1155,
+        "maximize": true,
+        "zoom": 0
+      },
+      {
+        "id": "29db911b4c2be6d2",
+        "type": "window",
+        "children": [
+          {
+            "id": "b04770be856fafd3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "66c0b089e6bf2ecd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "App2/Note pour l'app 5 procédural 1.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2193,
+        "y": 94,
+        "width": 1676,
+        "height": 1000,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f4465f9807fd1bf9",
   "lastOpenFiles": [
-    "Note pour l'app 5 procédural 1.md",
-    "Untitled.canvas"
+    "Ecss/ExamenECSSV1Adri.md"
   ]
 }
