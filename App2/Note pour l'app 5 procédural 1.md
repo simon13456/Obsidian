@@ -75,4 +75,14 @@ A characteristic known as leakage causes our DFT results to be only an approxima
 # Chapitre
 ## 4.3
 FFT
-$x(n) = \sum\limits_{n=0}^{(N/2)-1} x(2n)e^{{-j2\pi(2n)m}/{N}}+e^{{-j2\pim}/{N}}\sum\limits_{n=0}^{(N/2)-1} x(2n+1)e^{{-j2\pi(2n)m}/{N}}$
+$x(n) = \sum\limits_{n=0}^{(N/2)-1} x(2n)e^{{-j2\pi(2n)m}/{N}}+e^{{-j2\pi m}/{N}}\sum\limits_{n=0}^{(N/2)-1} x(2n+1)e^{{-j2\pi(2n)m}/{N}}$
+
+TFD : Sticks
+TFSD : Line, cause time is discret, not frequency
+%% Vue en classe %%
+
+$X(\omega) = \frac {\sin (\omega K/2)}{\sin (\omega / 2)}$
+
+The wigly factor W is:
+
+$W_N = e^{-j2\pi /2}$
