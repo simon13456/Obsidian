@@ -55,7 +55,7 @@ DFT equation(exponential form): → $X(m) = \sum\limits_{n=0}^{N-1}x(n)e^{{-j\pi
 
 From Euler’s relationship,  $e-jø = cos(ø)-jsin(ø)$, Eq. (3–2) is equivalent to : 
 
-<center> { X(m) = \sum\limits_{n=0}^{N-1} x(n)[\cos(2 \pi nm /N - j \sin(2 \pi nm / N)]} </center>
+ $X(m) = \sum\limits_{n=0}^{N-1} x(n)[\cos(2 \pi nm /N - j \sin(2 \pi nm / N)]$ 
 - X(m) = the mth DFT output component, i.e., X(0), X(1), X(2), X(3), etc.,
 - m = the index of the DFT output in the frequency domain,
 - m = 0, 1, 2, 3, . . ., N–1,
@@ -66,3 +66,13 @@ From Euler’s relationship,  $e-jø = cos(ø)-jsin(ø)$, Eq. (3–2) is equival
 
 If we plot the X(m) output magnitudes as a function of frequency, we produce
 the magnitude spectrum of the x(n) input sequence
+## 3.2
+DFT is called conjugate symmetric. When the input sequence x(n) is real, as it will be for all of our examples, the complex DFT outputs for $m = 1$ to $m= (N/2) - 1$ are redundant with frequency output values for $m > (N/2)$. The mth DFT output will have the same magnitude as the $(N–m)th$ DFT output.
+## 3.7
+IDTF : $x(n) =\frac{1}{N} \sum\limits_{m=0}^{N-1}X(m)e^{{j\pi nm}/{N}}$ and $x(n) = \sum\limits_{n=0}^{N-1} X(m)[\cos(2 \pi nm /N + j \sin(2 \pi nm / N)]$
+## 3.8
+A characteristic known as leakage causes our DFT results to be only an approximation of the true spectra of the original input signals prior to digital sampling
+# Chapitre
+## 4.3
+FFT
+$x(n) = \sum\limits_{n=0}^{(N/2)-1} x(2n)e^{{-j2\pi(2n)m}/{N}}+e^{{-j2\pim}/{N}}\sum\limits_{n=0}^{(N/2)-1} x(2n+1)e^{{-j2\pi(2n)m}/{N}}$

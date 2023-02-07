@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "a8478ebcf1105857",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App2/Note pour l'app 5 procédural 1.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0527d2bcb4d9e955",
@@ -151,37 +165,6 @@
     "type": "floating",
     "children": [
       {
-        "id": "c553ec7ee7284810",
-        "type": "window",
-        "children": [
-          {
-            "id": "f7bd82bc0ab5d7ae",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d85d3fd5a0fd4119",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Ecss/ExamenECSSV1Adri.md",
-                    "mode": "preview",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1992,
-        "y": 513,
-        "width": 1851,
-        "height": 1155,
-        "maximize": true,
-        "zoom": 0
-      },
-      {
         "id": "29db911b4c2be6d2",
         "type": "window",
         "children": [
@@ -205,17 +188,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 2193,
-        "y": 94,
-        "width": 1676,
-        "height": 1000,
-        "maximize": true,
+        "x": 632,
+        "y": -8,
+        "width": 656,
+        "height": 696,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "f4465f9807fd1bf9",
+  "active": "a8478ebcf1105857",
   "lastOpenFiles": [
+    "Note pour l'app 5 procédural 1.pdf",
+    "App2/Note pour l'app 5 procédural 1.md",
     "Ecss/ExamenECSSV1Adri.md"
   ]
 }
