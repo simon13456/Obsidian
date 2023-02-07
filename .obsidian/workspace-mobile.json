@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "9f76f14780b60f76",
+    "type": "split",
+    "children": [
+      {
+        "id": "79342868ff270b11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcb44e155260e520",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App2/Note pour l'app 5 procédural 1.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e3eb94cf1da445cb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7fb2b3259faef505",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2d924e1a7b0a9b41",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "673d5cd61c7cc3d2",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "ec97fcbe71909d1f",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "8ce41d0dc919e3c8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3f6b9dd0f536b2e7",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "App2/Note pour l'app 5 procédural 1.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "ff91863d548d33a3",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "App2/Note pour l'app 5 procédural 1.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bd0005a0d3674886",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "App2/Note pour l'app 5 procédural 1.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "bcb44e155260e520",
+  "lastOpenFiles": []
+}

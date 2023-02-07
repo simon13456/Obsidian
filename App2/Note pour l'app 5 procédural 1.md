@@ -51,7 +51,7 @@ or frequency, content of a discrete signal sequence.The DFT is useful in analyzi
 
 >$X(f)=\int_{-\infty}^{\infty} x(t)e^{-j\pi ft}dt$
 
-DFT equation(exponential form): → $X(m) = \sum\limits_{n=0}^{N-1}x(n)e^{{-j\pi nm}/{N}}$
+DFT equation(exponential form): → $X(m) = \sum\limits_{n=0}^{N-1}x(n)e^{{-j\pi 2nm}/{N}}$
 
 From Euler’s relationship,  $e-jø = cos(ø)-jsin(ø)$, Eq. (3–2) is equivalent to : 
 
