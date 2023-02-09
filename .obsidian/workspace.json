@@ -30,9 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "47f4f6f05a2f78f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ecss/Truc pour l'examen.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0527d2bcb4d9e955",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "App2/Note pour l'app 5 procédural 1.md",
+                "file": "Ecss/Truc pour l'examen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "App2/Note pour l'app 5 procédural 1.md",
+                "file": "Ecss/Truc pour l'examen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "App2/Note pour l'app 5 procédural 1.md"
+                "file": "Ecss/Truc pour l'examen.md"
               }
             }
           }
@@ -160,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8478ebcf1105857",
+  "active": "47f4f6f05a2f78f5",
   "lastOpenFiles": [
-    "Note pour l'app 5 procédural 1.pdf",
     "App2/Note pour l'app 5 procédural 1.md",
+    "Note pour l'app 5 procédural 1.pdf",
     "Ecss/ExamenECSSV1Adri.md"
   ]
 }
