@@ -29,14 +29,14 @@ So you can write:
 
 >[!FAQ]- Formally
 >When sampling at a rate of fs samples/second, if k is any positive or negative
-integer, we cannot distinguish between the sampled values of a sinewave of
+integer, we cannot distinguish between the sampled values of a sinewave of ''
 fo Hz and a sinewave of (fo+kfs) Hz.
 
 ![[Pasted image 20230206214954.png]]
 \-Figure 2–2(b) shows another example of frequency ambiguity that we’ll
 call aliasing, where a 4 kHz sinewave could be mistaken for a –2 kHz
 sinewave. In Figure 2–2(b), $f_o = 4$ kHz, $f_s = 6$ kHz, and $k =-1$ in Eq. (2–5), so
-that fo+kfs = [4+(–1 ⋅ 6)] = –2 kHz
+that $fo+kfs = [4+(-1 * 6)] = -2 kHz$
 $\frac{f_s}{2}$ is an important quantity in sampling theory and is referred to by different
 names in the literature, such as critical Nyquist, half Nyquist, and folding
 frequency.
@@ -69,7 +69,7 @@ the magnitude spectrum of the x(n) input sequence
 ## 3.2
 DFT is called conjugate symmetric. When the input sequence x(n) is real, as it will be for all of our examples, the complex DFT outputs for $m = 1$ to $m= (N/2) - 1$ are redundant with frequency output values for $m > (N/2)$. The mth DFT output will have the same magnitude as the $(N–m)th$ DFT output.
 ## 3.7
-IDTF : $x(n) =\frac{1}{N} \sum\limits_{m=0}^{N-1}X(m)e^{{j\pi nm}/{N}}$ and $x(n) = \sum\limits_{n=0}^{N-1} X(m)[\cos(2 \pi nm /N + j \sin(2 \pi nm / N)]$
+IDTF : $x(n) =\frac{1}{N} \sum\limits_{m=0}^{N-1}X(m)e^{{j\pi nm}/{N}}$ and $x(n) = \frac{1}{N}\sum\limits_{n=0}^{N-1} X(m)[\cos(2 \pi nm /N + j \sin(2 \pi nm / N)]$
 ## 3.8
 A characteristic known as leakage causes our DFT results to be only an approximation of the true spectra of the original input signals prior to digital sampling
 # Chapitre
@@ -85,4 +85,4 @@ $X(\omega) = \frac {\sin (\omega K/2)}{\sin (\omega / 2)}$
 
 The wigly factor W is:
 
-$W_N = e^{-j2\pi /2}$
+$W_N = e^{-j2\pi /N}$
