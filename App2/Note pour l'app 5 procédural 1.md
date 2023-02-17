@@ -83,6 +83,12 @@ TFSD : Line, cause time is discret, not frequency
 
 $X(\omega) = \frac {\sin (\omega K/2)}{\sin (\omega / 2)}$
 
-The wigly factor W is:
+The twiddle factor W is:
 
 $W_N = e^{-j2\pi /N}$
+>[!Notes]+
+>Et quand on voit un indice et un facteur, on se dit juste que on replace l'indice par N et que on fait la puissance(qui dans notre cas devient juste une multiplication du facteur de  $e^{-j2\pi /N}$ par le facteur)
+# Chapitre 5
+Pour les filtres passe-bas: 
+ $h(n)=\frac{\sin(\pi nk/N)}{\sin(\pi n/N)}$ Quand $N\not= 0$
+ $h(n)=\frac{K}{N}$ Quand $N=0$
