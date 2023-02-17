@@ -95,4 +95,4 @@ Pour les filtres passe-bas:
 
 ![[Pasted image 20230217092927.png]]
 
-![[Pasted image 20230217093557.png]]
+![[Pasted image 20230217093557.png|500]]
