@@ -92,3 +92,7 @@ $W_N = e^{-j2\pi /N}$
 Pour les filtres passe-bas: 
  $h(n)=\frac{\sin(\pi nk/N)}{\sin(\pi n/N)}$ Quand $N\not= 0$
  $h(n)=\frac{K}{N}$ Quand $N=0$
+
+![[Pasted image 20230217092927.png]]
+
+![[Pasted image 20230217093557.png]]
