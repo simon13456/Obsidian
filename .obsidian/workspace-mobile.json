@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "bd4c994df7f10bef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note Pour l'App 3 (Algèbre linéaire et filtre numérique).md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "App2/Note pour l'app 5 procédural 1.md",
+            "file": "Note Pour l'App 3 (Algèbre linéaire et filtre numérique).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "App2/Note pour l'app 5 procédural 1.md",
+            "file": "Note Pour l'App 3 (Algèbre linéaire et filtre numérique).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,17 +127,17 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "App2/Note pour l'app 5 procédural 1.md"
+            "file": "Note Pour l'App 3 (Algèbre linéaire et filtre numérique).md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "bcb44e155260e520",
+  "active": "bd4c994df7f10bef",
   "lastOpenFiles": [
-    "App2/Lyons, Richard G - Understanding digital signal processing (2011, Prentice Hall) - libgen.li.pdf",
     "App2/Note pour l'app 5 procédural 1.md",
+    "App2/Lyons, Richard G - Understanding digital signal processing (2011, Prentice Hall) - libgen.li.pdf",
     "Ecss/Truc pour l'examen.md"
   ]
 }
