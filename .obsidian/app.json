@@ -9,5 +9,7 @@
   },
   "showLineNumber": true,
   "strictLineBreaks": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false,
+  "showFrontmatter": false
 }
