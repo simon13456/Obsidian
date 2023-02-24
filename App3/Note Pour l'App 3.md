@@ -34,4 +34,5 @@ $$z = \frac{(1 + \sigma t_s /2) + j\sigma _a t_s /2}{(1 - \sigma t_s /2) - j\sig
 
  Useful expression for the z-domain frequency $\omega_d$, in terms of the s-domain frequency $\omega_a$ as :
 $$\omega _d = 2\tan^{-1} \frac{\omega_a t_s}{2},-\pi \leq \omega_d \leq \pi$$
+$$\omega _a = \frac{2}{T}\tan \frac{\omega_d}{2},-\pi \leq \omega_a \leq \pi$$
  No IIR filter response aliasing can occur with the bilinear transform design method.
