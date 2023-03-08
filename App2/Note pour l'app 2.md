@@ -25,7 +25,7 @@ representing a sinewave of fo Hz, also exactly represents sinewaves at other
 frequencies, namely, fo + kfs.
 So you can write:
 
->$x(n)=\sin(2\pi f_0 nt_0) =\sin(2\pi (f_0 +kF_s) nt_0)$ \- Eq. (2-5)
+>$$x(n)=\sin(2\pi f_0 nt_0) =\sin(2\pi (f_0 +kF_s) nt_0)$$
 
 >[!FAQ]- Formally
 >When sampling at a rate of fs samples/second, if k is any positive or negative
@@ -49,49 +49,50 @@ or frequency, content of a discrete signal sequence.The DFT is useful in analyzi
 
 \-The DFT’s origin, of course, is the continuous Fourier transform X( f ) defined as :
 
->$X(f)=\int_{-\infty}^{\infty} x(t)e^{-j\pi ft}dt$
+>$$X(f)=\int_{-\infty}^{\infty} x(t)e^{-j\pi ft}dt$$
 
-DFT equation(exponential form): → $X(m) = \sum\limits_{n=0}^{N-1}x(n)e^{{-j\pi 2nm}/{N}}$
+DFT equation(exponential form): → $$X(m) = \sum\limits_{n=0}^{N-1}x(n)e^{{-j\pi 2nm}/{N}}$$
 
 From Euler’s relationship,  $e-jø = cos(ø)-jsin(ø)$, Eq. (3–2) is equivalent to : 
 
- $X(m) = \sum\limits_{n=0}^{N-1} x(n)[\cos(2 \pi nm /N - j \sin(2 \pi nm / N)]$ 
-- X(m) = the mth DFT output component, i.e., X(0), X(1), X(2), X(3), etc.,
-- m = the index of the DFT output in the frequency domain,
-- m = 0, 1, 2, 3, . . ., N–1,
-- x(n) = the sequence of input samples, x(0), x(1), x(2), x(3), etc.,
-- n = the time-domain index of the input samples, n = 0, 1, 2, 3, . . ., N–1,
-- j= , and
-- N = the number of samples of the input sequence
+ $$X(m) = \sum\limits_{n=0}^{N-1} x(n)[\cos(2 \pi nm /N - j \sin(2 \pi nm / N)]$$ 
+ >[!notes]- Définition
+ >- X(m) = the mth DFT output component, i.e., X(0), X(1), X(2), X(3), etc.,
+ >- m = the index of the DFT output in the frequency domain,
+ >- m = 0, 1, 2, 3, . . ., N–1,
+ >- x(n) = the sequence of input samples, x(0), x(1), x(2), x(3), etc.,
+ >- n = the time-domain index of the input samples, n = 0, 1, 2, 3, . . ., N–1,
+ >- j= , and
+ >- N = the number of samples of the input sequence
 
 If we plot the X(m) output magnitudes as a function of frequency, we produce
 the magnitude spectrum of the x(n) input sequence
 ## 3.2
 DFT is called conjugate symmetric. When the input sequence x(n) is real, as it will be for all of our examples, the complex DFT outputs for $m = 1$ to $m= (N/2) - 1$ are redundant with frequency output values for $m > (N/2)$. The mth DFT output will have the same magnitude as the $(N–m)th$ DFT output.
 ## 3.7
-IDTF : $x(n) =\frac{1}{N} \sum\limits_{m=0}^{N-1}X(m)e^{{j\pi nm}/{N}}$ and $x(n) = \frac{1}{N}\sum\limits_{n=0}^{N-1} X(m)[\cos(2 \pi nm /N + j \sin(2 \pi nm / N)]$
+IDTF : $$x(n) =\frac{1}{N} \sum\limits_{m=0}^{N-1}X(m)e^{{j\pi nm}/{N}}$ and $x(n) = \frac{1}{N}\sum\limits_{n=0}^{N-1} X(m)[\cos(2 \pi nm /N + j \sin(2 \pi nm / N)]$$
 ## 3.8
 A characteristic known as leakage causes our DFT results to be only an approximation of the true spectra of the original input signals prior to digital sampling
-# Chapitre
+# Chapitre 4
 ## 4.3
 FFT
-$x(n) = \sum\limits_{n=0}^{(N/2)-1} x(2n)e^{{-j2\pi(2n)m}/{N}}+e^{{-j2\pi m}/{N}}\sum\limits_{n=0}^{(N/2)-1} x(2n+1)e^{{-j2\pi(2n)m}/{N}}$
+$$x(n) = \sum\limits_{n=0}^{(N/2)-1} x(2n)e^{{-j2\pi(2n)m}/{N}}+e^{{-j2\pi m}/{N}}\sum\limits_{n=0}^{(N/2)-1} x(2n+1)e^{{-j2\pi(2n)m}/{N}}$$
 
 TFD : Sticks
 TFSD : Line, cause time is discret, not frequency
 %% Vue en classe %%
 
-$X(\omega) = \frac {\sin (\omega K/2)}{\sin (\omega / 2)}$
+$$X(\omega) = \frac {\sin (\omega K/2)}{\sin (\omega / 2)}$$
 
 The twiddle factor W is:
 
-$W_N = e^{-j2\pi /N}$
+$$W_N = e^{-j2\pi /N}$$
 >[!Notes]+
 >Et quand on voit un indice et un facteur, on se dit juste que on replace l'indice par N et que on fait la puissance(qui dans notre cas devient juste une multiplication du facteur de  $e^{-j2\pi /N}$ par le facteur)
 # Chapitre 5
 Pour les filtres passe-bas: 
- $h(n)=\frac{\sin(\pi nk/N)}{\sin(\pi n/N)}$ Quand $N\not= 0$
- $h(n)=\frac{K}{N}$ Quand $N=0$
+ $$h(n)=\frac{\sin(\pi nk/N)}{\sin(\pi n/N)} Quand N\not= 0$$
+ $$h(n)=\frac{K}{N} Quand N=0$$
 
 ![[Pasted image 20230217092927.png]]
 
