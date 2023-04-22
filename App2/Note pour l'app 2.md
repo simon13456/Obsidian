@@ -70,7 +70,7 @@ the magnitude spectrum of the x(n) input sequence
 ## 3.2
 DFT is called conjugate symmetric. When the input sequence x(n) is real, as it will be for all of our examples, the complex DFT outputs for $m = 1$ to $m= (N/2) - 1$ are redundant with frequency output values for $m > (N/2)$. The mth DFT output will have the same magnitude as the $(N–m)th$ DFT output.
 ## 3.7
-IDTF : $$x(n) =\frac{1}{N} \sum\limits_{m=0}^{N-1}X(m)e^{{j\pi nm}/{N}}$ and $x(n) = \frac{1}{N}\sum\limits_{n=0}^{N-1} X(m)[\cos(2 \pi nm /N + j \sin(2 \pi nm / N)]$$
+IDTF : $$x(n) =\frac{1}{N} \sum\limits_{m=0}^{N-1}X(m)e^{{j\pi nm}/{N}} \text{  et  } x(n) = \frac{1}{N}\sum\limits_{n=0}^{N-1} X(m)[\cos(2 \pi nm /N + j \sin(2 \pi nm / N)]$$
 ## 3.8
 A characteristic known as leakage causes our DFT results to be only an approximation of the true spectra of the original input signals prior to digital sampling
 # Chapitre 4
@@ -91,8 +91,8 @@ $$W_N = e^{-j2\pi /N}$$
 >Et quand on voit un indice et un facteur, on se dit juste que on replace l'indice par N et que on fait la puissance(qui dans notre cas devient juste une multiplication du facteur de  $e^{-j2\pi /N}$ par le facteur)
 # Chapitre 5
 Pour les filtres passe-bas: 
- $$h(n)=\frac{\sin(\pi nk/N)}{\sin(\pi n/N)} Quand N\not= 0$$
- $$h(n)=\frac{K}{N} Quand N=0$$
+ $$h(n)=\frac{\sin(\pi nk/N)}{\sin(\pi n/N)}\text{  Quand N}\not= 0$$
+ $$h(n)=\frac{K}{N} \text{  Quand N=0}$$
 
 ![[Pasted image 20230217092927.png]]
 
