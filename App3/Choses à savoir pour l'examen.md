@@ -14,7 +14,7 @@
 	- Réponse impulsionnelle
 	- Pôles et zéros d’un système
 	- Transformation bilinéaire
-	- Stabilité et ROC (Region of convergence)
+	- Stabilité
 - Conception de filtres RII
 - Représentation d’un signal par une somme de fonctions orthogonales, orthogonalité des sinusoïdes
 ## GIF592 :
@@ -22,8 +22,6 @@
 	- Base
 	- Indépendance linéaire
 	- Orthogonalité
-	- Rang
-	- Noyau
 - Transformation linéaire, rotation
 - Valeurs propres, vecteurs propres
 	- Diagonalisation d’une matrice
